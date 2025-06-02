@@ -36,5 +36,5 @@ Based on a challenge from [Frontend Mentor](https://www.frontendmentor.io/challe
 
 ## ✍️ Author
 Made with 💛 by Tanmay Sahu  
-GitHub: [@tanmaySahu1354](https://github.com/tanmaySahu1354)
+GitHub: [@tanmaySahu1354](https://github.com/tanmaySahu1354)   
 Live: https://product-card-previews.netlify.app/ 
