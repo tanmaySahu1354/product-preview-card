@@ -1,0 +1,115 @@
+/* Apply box-sizing everywhere */
+* {
+  box-sizing: border-box;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive image */
+.product-image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Content styling */
+.card-text {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.category {
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  color: hsl(212, 21%, 14%);
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.6;
+}
+
+.price-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  color: hsl(158, 36%, 37%);
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: 0.9rem;
+}
+
+/* Button */
+.add-to-cart {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: hsl(158, 36%, 25%);
+}
+
+.add-to-cart img {
+  width: 14px;
+  height: auto;
+}
+
+/* Desktop Layout */
+@media (min-width: 768px) {
+  .product-card {
+    flex-direction: row;
+    max-height: 450px;
+  }
+
+  .product-image {
+    width: 300px;
+    height:450px;
+    object-fit:cover;
+  }
+
+  .card-text {
+    
+    padding: 2rem;
+  }
+}

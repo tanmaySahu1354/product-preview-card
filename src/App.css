@@ -1,0 +1,8 @@
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(30, 38%, 92%); /* Matches challenge background */
+  padding: 1rem;
+}
